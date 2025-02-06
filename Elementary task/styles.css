@@ -1,4 +1,4 @@
-/* General Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -23,7 +23,7 @@ body {
 }
 
 .overlay {
-    /* background: rgba(0, 0, 0, 0.5); */
+   
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -37,7 +37,7 @@ body {
 
 /* logo */
 .logo {
-    font-size: clamp(1.5rem, 5vw, 3rem); /* Adjust size based on screen width */
+    font-size: clamp(1.5rem, 5vw, 3rem); 
     color: #28a745;
     font-weight: bold;
     margin-bottom: 10px;
@@ -63,7 +63,7 @@ body {
 
 
 h1 {
-    font-size: clamp(1.5rem, 4vw, 2.5rem); /* Responsive text size */
+    font-size: clamp(1.5rem, 4vw, 2.5rem); 
     font-weight: bold;
     text-transform: uppercase;
     margin-top: 0.5rem;
@@ -171,7 +171,7 @@ form button:hover {
        
     }
     .overlay {
-        /* justify-content: flex-start; Center everything */
+     
         padding: 1rem;
     }
     .logo {
@@ -196,30 +196,30 @@ form button:hover {
 
     .form-container {
         width: 90%;
-        /* margin-top: 60px; */
+       
       
     }
 }
 
 @media (max-width: 480px) {
     .hero-section {
-        height: 45vh; /* Adjusted height for smaller screens */
+        height: 45vh; 
         padding: 1rem;
     }
     h1 {
-        font-size: 1.5rem; /* Reduce heading size */
-        line-height: 1.2; /* Adjust line height for better readability */
+        font-size: 1.5rem; 
+        line-height: 1.2;
         margin-top: 5px;
     }
     .overlay {
-        /* justify-content:flex-end;  */
-        padding: 1rem; /* Reduce padding */
+       
+        padding: 1rem; 
     }
     .subtext {
-        font-size: 0.9rem; /* Smaller text for mobile */
+        font-size: 0.9rem; 
     }
     .logo {
-        font-size: 1.8rem; /* Make logo smaller */
+        font-size: 1.8rem; 
     }
     .underline{
         margin-top: 0.5rem;
@@ -228,7 +228,7 @@ form button:hover {
     .form-container {
         width: 100%;
         margin-top: 70px;
-        /* padding: 10px; */
+       
     }
 
     form button {
@@ -240,7 +240,7 @@ form button:hover {
 
 @media (max-width: 1870px) {
     .hero-section {
-        height: 70vh; /* Slightly reduce height */
+        height: 70vh; 
         padding: 2rem;
        
     }
@@ -250,12 +250,12 @@ form button:hover {
     align-items: end;
    }
     .logo {
-        font-size: 2.5rem; /* Adjust logo size */
-        /* margin-top: 1.2rem; */
+        font-size: 2.5rem; 
+        
     }
 
     h1 {
-        font-size: 2.8rem; /* Balance heading size */
+        font-size: 2.8rem; 
     }
 
     .subtext {
