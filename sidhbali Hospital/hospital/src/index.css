@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  
+  font-family:"Montserrat", serif; 
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+.header{
+  font-family: "Montserrat", serif;
+}
+.hero-image {
+  background: url('../public/media/assets/sidhbalihospital5.png') no-repeat center center/cover;
+  height: 60vh;
+  transform: translateX(-100%); /* Initially off-screen (left side) */
+  opacity: 0; /* Initially hidden */
+  transition: transform 2s ease-in-out, opacity 3s ease-out;
+}
+
+/* When active, move it into view */
+.hero-image.active {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+
+
+.font{
+  font-family:"Montserrat", serif; 
+}
+
+@keyframes slideInFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Animation classes */
+.hero-animation {
+  animation: slideInFromLeft 2s ease-out forwards;
+  
+}
+
+.img-animate {
+  animation: fadeSlideIn 1s ease-out forwards;
+}
+
+/* Initially hide the sections */
+.opacity-0 {
+  opacity: 0;
+}
+
