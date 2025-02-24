@@ -9,7 +9,7 @@ import Hospitalhomepage from './landing-page/home/Hospital';
 import About from './landing-page/about/About';
 import Services from './landing-page/services/services';
 import Contact from './landing-page/contact/contact-us';
-// import ScrollImage from './scrollImage';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
  
@@ -24,7 +24,7 @@ root.render(
     
    
       </Routes>
-      {/* <ScrollImage/> */}
+   
       <Footer/>
       </BrowserRouter>
   
